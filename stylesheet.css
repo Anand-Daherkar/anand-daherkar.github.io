@@ -150,7 +150,7 @@ section {
 }
 
 /*PROFILE SECTION*/
-#display{
+#display {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -161,7 +161,7 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin-left: 6.25rem;
 }
 
 .section__text {
@@ -198,6 +198,7 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+    display: grid;
 }
 
 /*BUTTONS*/
@@ -242,4 +243,49 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/*CONTACT*/
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+/*FOOTER SECTION*/
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
